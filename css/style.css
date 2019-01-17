@@ -19,3 +19,37 @@ ul {
 .logo {
     width: 130px;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.hide-mobile {
+     display: none;
+}
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+.server {
+    width: 70%;
+    margin: 2em auto 2em 25%;
+}
+h1, .subhead {
+    position: relative;
+    z-index: 3 ;
+}
+.subhead {
+    font-size: 1.1em; 
+}
+.blue-container {
+    width: 100%;
+    background: #00C2FF;
+    color: #fff;
+    margin: 15%;
+    padding: 4em 0 2em;
+    border-top-left-radius: 40px;
+    transform: skewY(-2deg);
+}
+.blue-container ul {
+    transform: skewY(2deg);
+}
